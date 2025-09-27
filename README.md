@@ -1,8 +1,30 @@
-# React + Vite
+# 🌉 Cross-Chain Token Bridge (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A **React app** to transfer tokens between different blockchain networks (e.g., Solana ↔ Ethereum) with real-time status updates.  
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ⚡ Features
+
+- **Cross-Chain Token Transfer** – Bridge tokens between chains  
+- **Automatic Token Handling** – Wrap/unwrap tokens automatically during transfer  
+- **Real-Time Status** – Shows progress and completion  
+- **Custom RPC Support** – Connect to testnets or mainnets  
+
+---
+
+## 🛠️ Tech Stack
+
+- **React.js** – Frontend  
+- **JavaScript SDKs** – Cross-chain bridging  
+- **Solana & EVM Networks** – Source and destination chains  
+- **CSS** – Basic styling  
+
+---
+
+## 🚀 Quick Start
+
+1. Install dependencies:
+
+```bash
+npm install
